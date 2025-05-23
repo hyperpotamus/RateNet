@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Flask App</title>
+    <title>User Profile</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: sans-serif;
+        }
+        .profile-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            background-color: #555;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .username {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .status {
+            font-size: 18px;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+        .bio {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px; /* Added margin for spacing */
+        }
+        .social-rating {
+            font-size: 16px;
+            color: #bbb; /* Slightly lighter than main text for emphasis */
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div class="profile-container">
+        <div class="profile-picture"></div>
+        <div class="username">Иван Иванов</div>
+        <div class="status">Онлайн</div>
+        <div class="bio">Люблю программировать и путешествовать.</div>
+        <div class="social-rating">Социальный рейтинг: 75</div>
+    </div>
 </body>
 </html>
